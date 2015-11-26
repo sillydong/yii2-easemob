@@ -1,0 +1,22 @@
+{
+    "name": "sillydong/yii2-easemob",
+    "description": "simple way to use easemob",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","easemob"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Chen.Zhidong",
+            "email": "njutczd@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "sillydong/yii2-http": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "sillydong\\easemob\\": ""
+        }
+    }
+}
